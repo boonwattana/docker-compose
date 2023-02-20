@@ -28,7 +28,7 @@ services:
    POSTGRES_PASSWORD: password
    POSTGRES_DB: postgres
  api:
-  image: boonwattana/api:latest
+  image: mongmang/monghub:api
   depends_on:
    - postgres
   environment:

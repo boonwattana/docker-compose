@@ -25,7 +25,7 @@ services:
   environment:
    PGDATA: /var/postgres_data
    POSTGRES_USER: postgres
-   POSTGRES_PASSWORD: u-~d:}4KNNK<Axx3
+   POSTGRES_PASSWORD: 
    POSTGRES_DB: postgres
  api:
   image: mongmang/monghub:api
@@ -37,7 +37,7 @@ services:
    NODE_ENV: development 
    DATABASE_PORT: 5432
    DATABASE_USERNAME: postgres
-   DATABASE_PASSWORD: u-~d:}4KNNK<Axx3
+   DATABASE_PASSWORD: 
    DATABASE_SCHEMA: postgres
    PORT: 3000
    JWT_SECRET_KEY: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjcyIiwidXNlcm5hbWUiOiJURVNUQ1JFQVRFNSIsImZpcnN0TmFtZSI6IlRlc3RlciIsImxhc3ROYW1lIjoiVGVzdGVyIiwidHlwZUNvZGUiOiIiLCJkZXBhcnRtZW50Q29kZSI6IiIsImlhdCI6MTY1NDc0MzI1NywiZXhwIjoxNjU1MzQ4MDU3fQ.mBz_ugVyFBcdN9F1KYzBkq36sBtQrkFmTDNHiU9pm84 

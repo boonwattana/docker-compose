@@ -1,7 +1,7 @@
 version: '3.8'
 services:
  app:
-  image: boonwattana/app:latest
+  image: boonwattana/app:v2
   depends_on:
    - api
   environment:
